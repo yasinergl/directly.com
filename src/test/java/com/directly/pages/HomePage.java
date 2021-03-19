@@ -64,7 +64,7 @@ public class HomePage extends BasePage {
 
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+		super.tearDown();
 	}
 
 }

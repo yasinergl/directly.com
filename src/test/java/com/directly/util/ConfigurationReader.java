@@ -7,9 +7,8 @@ public class ConfigurationReader {
 	private static Properties configFile;
 
 	static {
-
+		String path = "src/test/resources/configuration.properties";
 		try {
-			String path = "configuration.properties";
 			FileInputStream input = new FileInputStream(path);
 
 			configFile = new Properties();
@@ -17,6 +16,7 @@ public class ConfigurationReader {
 
 			input.close();
 		} catch (Exception e) {
+			System.out.println("path="+path);
 			e.printStackTrace();
 
 		}

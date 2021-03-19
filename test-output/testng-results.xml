@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-19T08:49:26Z" name="Default suite" finished-at="2021-03-19T08:50:05Z" duration-ms="39030">
+  <suite started-at="2021-03-19T10:28:54Z" name="Default suite" finished-at="2021-03-19T10:29:27Z" duration-ms="33665">
     <groups>
     </groups>
-    <test started-at="2021-03-19T08:49:26Z" name="Default test" finished-at="2021-03-19T08:50:05Z" duration-ms="39030">
+    <test started-at="2021-03-19T10:28:54Z" name="Default test" finished-at="2021-03-19T10:29:27Z" duration-ms="33665">
       <class name="com.directly.pages.LoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T08:49:54Z" name="setup" finished-at="2021-03-19T08:49:57Z" duration-ms="3323" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T10:29:17Z" name="setup" finished-at="2021-03-19T10:29:20Z" duration-ms="2988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="refresh()[pri:0, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T08:49:57Z" name="refresh" finished-at="2021-03-19T08:49:58Z" duration-ms="1187" status="PASS">
+        <test-method is-config="true" signature="refresh()[pri:0, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T10:29:20Z" name="refresh" finished-at="2021-03-19T10:29:21Z" duration-ms="1306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refresh -->
-        <test-method signature="filledAndEmty()[pri:3, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T08:49:58Z" name="filledAndEmty" finished-at="2021-03-19T08:50:00Z" duration-ms="1262" status="PASS">
+        <test-method signature="filledAndEmty()[pri:3, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T10:29:21Z" name="filledAndEmty" finished-at="2021-03-19T10:29:22Z" duration-ms="1221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filledAndEmty -->
-        <test-method is-config="true" signature="refresh()[pri:0, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T08:50:00Z" name="refresh" finished-at="2021-03-19T08:50:01Z" duration-ms="1071" status="PASS">
+        <test-method is-config="true" signature="refresh()[pri:0, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T10:29:22Z" name="refresh" finished-at="2021-03-19T10:29:23Z" duration-ms="1183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refresh -->
-        <test-method signature="checkValidUserNameValidPassword()[pri:4, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T08:50:01Z" name="checkValidUserNameValidPassword" finished-at="2021-03-19T08:50:02Z" duration-ms="1131" status="PASS">
+        <test-method signature="checkValidUserNameValidPassword()[pri:4, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T10:29:23Z" name="checkValidUserNameValidPassword" finished-at="2021-03-19T10:29:25Z" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkValidUserNameValidPassword -->
-        <test-method is-config="true" signature="refresh()[pri:0, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T08:50:02Z" name="refresh" finished-at="2021-03-19T08:50:03Z" duration-ms="1067" status="PASS">
+        <test-method is-config="true" signature="refresh()[pri:0, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T10:29:25Z" name="refresh" finished-at="2021-03-19T10:29:26Z" duration-ms="1066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refresh -->
-        <test-method signature="checkValidUserNameValidPassword2()[pri:5, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T08:50:03Z" name="checkValidUserNameValidPassword2" finished-at="2021-03-19T08:50:05Z" duration-ms="1583" status="FAIL">
+        <test-method signature="checkValidUserNameValidPassword2()[pri:5, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T10:29:26Z" name="checkValidUserNameValidPassword2" finished-at="2021-03-19T10:29:27Z" duration-ms="1580" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Wrong email / password combination1] but found [Wrong email / password combination]]]>
@@ -76,21 +76,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkValidUserNameValidPassword2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T08:50:05Z" name="tearDown" finished-at="2021-03-19T08:50:05Z" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.directly.pages.LoginPage@55cf0d14]" started-at="2021-03-19T10:29:27Z" name="tearDown" finished-at="2021-03-19T10:29:27Z" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.directly.pages.LoginPage -->
       <class name="com.directly.pages.HomePage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.directly.pages.HomePage@3b74ac8]" started-at="2021-03-19T08:49:39Z" name="setup" finished-at="2021-03-19T08:49:46Z" duration-ms="7080" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.directly.pages.HomePage@3b74ac8]" started-at="2021-03-19T10:29:03Z" name="setup" finished-at="2021-03-19T10:29:09Z" duration-ms="6194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="refresh()[pri:0, instance:com.directly.pages.HomePage@3b74ac8]" started-at="2021-03-19T08:49:46Z" name="refresh" finished-at="2021-03-19T08:49:47Z" duration-ms="1018" status="PASS">
+        <test-method is-config="true" signature="refresh()[pri:0, instance:com.directly.pages.HomePage@3b74ac8]" started-at="2021-03-19T10:29:09Z" name="refresh" finished-at="2021-03-19T10:29:10Z" duration-ms="1025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refresh -->
-        <test-method signature="clickLoginButton()[pri:3, instance:com.directly.pages.HomePage@3b74ac8]" started-at="2021-03-19T08:49:47Z" name="clickLoginButton" finished-at="2021-03-19T08:49:54Z" duration-ms="6243" status="FAIL">
+        <test-method signature="clickLoginButton()[pri:3, instance:com.directly.pages.HomePage@3b74ac8]" started-at="2021-03-19T10:29:10Z" name="clickLoginButton" finished-at="2021-03-19T10:29:16Z" duration-ms="6155" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <a target="_blank" rel="noopener" href="https://www.directly.com/login/auth?format=html">...</a> is not clickable at point (1197, 22). Other element would receive the click: <div class="onetrust-pc-dark-filter ot-fade-in" style="z-index:2147483645"></div>
@@ -98,8 +98,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ysn-MacBook-Air.local', ip: '2601:647:4b01:3910:1445:4ffa:5c4b:ceea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/fk/qstlxn250mq...}, goog:chromeOptions: {debuggerAddress: localhost:61911}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4efee8c196c90f9059e6b8501765085d]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/fk/qstlxn250mq...}, goog:chromeOptions: {debuggerAddress: localhost:63192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf8418fcfc00f180c1a13628aa5b5980]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a target="_blank" rel="noopener" href="https://www.directly.com/login/auth?format=html">...</a> is not clickable at point (1197, 22). Other element would receive the click: <div class="onetrust-pc-dark-filter ot-fade-in" style="z-index:2147483645"></div>
@@ -107,8 +107,8 @@ Session ID: 4efee8c196c90f9059e6b8501765085d]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ysn-MacBook-Air.local', ip: '2601:647:4b01:3910:1445:4ffa:5c4b:ceea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/fk/qstlxn250mq...}, goog:chromeOptions: {debuggerAddress: localhost:61911}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4efee8c196c90f9059e6b8501765085d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/fk/qstlxn250mq...}, goog:chromeOptions: {debuggerAddress: localhost:63192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf8418fcfc00f180c1a13628aa5b5980
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -154,21 +154,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLoginButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.directly.pages.HomePage@3b74ac8]" started-at="2021-03-19T08:49:54Z" name="tearDown" finished-at="2021-03-19T08:49:54Z" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.directly.pages.HomePage@3b74ac8]" started-at="2021-03-19T10:29:16Z" name="tearDown" finished-at="2021-03-19T10:29:17Z" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.directly.pages.HomePage -->
       <class name="com.directly.pages.ResourcesPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.directly.pages.ResourcesPage@27adc16e]" started-at="2021-03-19T08:49:26Z" name="setup" finished-at="2021-03-19T08:49:37Z" duration-ms="11061" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.directly.pages.ResourcesPage@27adc16e]" started-at="2021-03-19T10:28:54Z" name="setup" finished-at="2021-03-19T10:29:01Z" duration-ms="6891" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="refresh()[pri:0, instance:com.directly.pages.ResourcesPage@27adc16e]" started-at="2021-03-19T08:49:37Z" name="refresh" finished-at="2021-03-19T08:49:38Z" duration-ms="1014" status="PASS">
+        <test-method is-config="true" signature="refresh()[pri:0, instance:com.directly.pages.ResourcesPage@27adc16e]" started-at="2021-03-19T10:29:01Z" name="refresh" finished-at="2021-03-19T10:29:02Z" duration-ms="1030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refresh -->
-        <test-method signature="selectResources()[pri:0, instance:com.directly.pages.ResourcesPage@27adc16e]" started-at="2021-03-19T08:49:38Z" name="selectResources" finished-at="2021-03-19T08:49:39Z" duration-ms="1336" status="FAIL">
+        <test-method signature="selectResources()[pri:0, instance:com.directly.pages.ResourcesPage@27adc16e]" started-at="2021-03-19T10:29:02Z" name="selectResources" finished-at="2021-03-19T10:29:03Z" duration-ms="1140" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <a>...</a> is not clickable at point (952, 78). Other element would receive the click: <div class="onetrust-pc-dark-filter ot-fade-in" style="z-index:2147483645"></div>
@@ -176,8 +176,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ysn-MacBook-Air.local', ip: '2601:647:4b01:3910:1445:4ffa:5c4b:ceea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/fk/qstlxn250mq...}, goog:chromeOptions: {debuggerAddress: localhost:61853}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a9c9906074b59d252224741ba9804dda]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/fk/qstlxn250mq...}, goog:chromeOptions: {debuggerAddress: localhost:63134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b013b9da6bf0a58ed79de59936d9b6b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a>...</a> is not clickable at point (952, 78). Other element would receive the click: <div class="onetrust-pc-dark-filter ot-fade-in" style="z-index:2147483645"></div>
@@ -185,8 +185,8 @@ Session ID: a9c9906074b59d252224741ba9804dda]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ysn-MacBook-Air.local', ip: '2601:647:4b01:3910:1445:4ffa:5c4b:ceea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/fk/qstlxn250mq...}, goog:chromeOptions: {debuggerAddress: localhost:61853}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a9c9906074b59d252224741ba9804dda
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/fk/qstlxn250mq...}, goog:chromeOptions: {debuggerAddress: localhost:63134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b013b9da6bf0a58ed79de59936d9b6b
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -232,7 +232,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectResources -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.directly.pages.ResourcesPage@27adc16e]" started-at="2021-03-19T08:49:39Z" name="tearDown" finished-at="2021-03-19T08:49:39Z" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.directly.pages.ResourcesPage@27adc16e]" started-at="2021-03-19T10:29:03Z" name="tearDown" finished-at="2021-03-19T10:29:03Z" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

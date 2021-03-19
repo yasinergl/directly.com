@@ -31,7 +31,6 @@ public class Driver {
 				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();
 				break;
-
 			case 2:
 			default:
 				WebDriverManager.firefoxdriver().setup();

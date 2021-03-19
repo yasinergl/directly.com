@@ -96,7 +96,8 @@ public class ResourcesPage extends BasePage {
 
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+//		driver.quit();
+		super.tearDown();
 	}
 
 }

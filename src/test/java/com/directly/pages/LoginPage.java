@@ -110,7 +110,8 @@ public class LoginPage extends BasePage {
 	// @AfterMethod
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+//		driver.quit();
+		super.tearDown();
 	}
 
 }

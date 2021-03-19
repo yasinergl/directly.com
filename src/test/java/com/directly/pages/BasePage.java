@@ -5,9 +5,8 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import com.directly.util.Driver;
 
 public class BasePage {
 	public static String PAGE_URL_LOGIN = "loginPageURL";
@@ -23,8 +22,10 @@ public class BasePage {
 		fillUrlMap();
 		System.out.println("BasePage= > @BeforeClass - setup()");
 
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		driver = Driver.getDriver();
+				
+//		WebDriverManager.chromedriver().setup();
+//		driver = new ChromeDriver();
 
 //		WebDriverManager.iedriver().setup();
 //		driver = new InternetExplorerDriver();
@@ -60,6 +61,10 @@ public class BasePage {
 
 	public String getUrl() {
 		return this.url;
+	}
+
+	public void tearDown() {
+		Driver.closeDriver();
 	}
 
 }
