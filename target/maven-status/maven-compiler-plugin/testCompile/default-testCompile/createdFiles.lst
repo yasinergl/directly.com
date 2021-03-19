@@ -1,0 +1,6 @@
+com/directly/util/ConfigurationReader.class
+com/directly/pages/ResourcesPage.class
+com/directly/pages/LoginPage.class
+com/directly/util/Driver.class
+com/directly/pages/BasePage.class
+com/directly/pages/HomePage.class

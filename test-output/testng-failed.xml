@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.directly.pages.ResourcesPage">
+        <methods>
+          <include name="selectResources"/>
+          <include name="tearDown"/>
+          <include name="refresh"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.directly.pages.ResourcesPage -->
+      <class name="com.directly.pages.LoginPage">
+        <methods>
+          <include name="refresh"/>
+          <include name="checkValidUserNameValidPassword2"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.directly.pages.LoginPage -->
+      <class name="com.directly.pages.HomePage">
+        <methods>
+          <include name="clickLoginButton"/>
+          <include name="refresh"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.directly.pages.HomePage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
