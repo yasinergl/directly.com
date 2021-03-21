@@ -36,7 +36,7 @@ public class LoginPage extends BasePage {
 	/*
 	 * #1 -) Verify the EMAIL ADDRESS and PASSWORD fields are empty
 	 */
-	// @Test(priority = 1)
+	@Test(priority = 1)
 	public void checkEmptyUserNameEmptyPassword() {
 		driver.findElement(By.xpath("//button[@class='btn btn-full-width']")).click();
 	}
@@ -45,7 +45,7 @@ public class LoginPage extends BasePage {
 	 * #2 -) Verify the EMAIL ADDRESS filed is empty and PASSWORD fields are empty
 	 */
 
-//	@Test(priority = 2)
+    @Test(priority = 2)
 	public void checkEmptyUserNameAndFilledPassword() {
 
 		driver.findElement(By.xpath("//input[@id='j_password']")).sendKeys("khxkjdhakjh");

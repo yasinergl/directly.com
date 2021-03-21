@@ -30,14 +30,14 @@ public class HomePage extends BasePage {
 		}
 	}
 
-//	@Test(priority = 1)
+	@Test(priority = 1)
 	public void customLogoIsEnable() {
 
 		driver.findElement(By.xpath("//img[@class='custom-logo']")).isEnabled();
 
 	}
 
-//	@Test(priority = 2)
+	@Test(priority = 2)
 	public void loginButtonIsSelected() {
 
 		driver.findElement(By.xpath("//a[contains(text(),'Login')]")).isSelected();
@@ -56,7 +56,7 @@ public class HomePage extends BasePage {
 
 	}
 
-	// @Test(priority = 4)
+	@Test(priority = 4)
 	public void clickDemoButton() {
 		driver.findElement(By.xpath("//li[@id='menu-item-2062']//a[contains(text(),'Demo')]")).click();
 

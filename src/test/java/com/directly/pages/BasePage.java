@@ -16,7 +16,7 @@ public class BasePage {
 	private String url;
 	private Map<String, String> urlMap;
 
-	// @BeforeClass
+	@BeforeClass
 	public void setup() {
 
 		fillUrlMap();
@@ -24,18 +24,6 @@ public class BasePage {
 
 		driver = Driver.getDriver();
 				
-//		WebDriverManager.chromedriver().setup();
-//		driver = new ChromeDriver();
-
-//		WebDriverManager.iedriver().setup();
-//		driver = new InternetExplorerDriver();
-
-//		WebDriverManager.operadriver().setup();
-//		driver = new OperaDriver();
-
-//		WebDriverManager.firefoxdriver().setup();
-//		driver = new FirefoxDriver();
-
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 
